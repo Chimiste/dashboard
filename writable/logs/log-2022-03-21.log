@@ -1,0 +1,523 @@
+ERROR - 2022-03-21 06:51:17 --> No database selected
+CRITICAL - 2022-03-21 06:51:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 06:53:20 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 06:53:23 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 06:53:30 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 06:59:48 --> Invalid file: login.php
+#0 C:\xampp\htdocs\admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(13): view('login')
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-21 06:59:55 --> Invalid file: login.php
+#0 C:\xampp\htdocs\admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(13): view('login')
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-21 07:00:22 --> Invalid file: login.php
+#0 C:\xampp\htdocs\admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(13): view('login')
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-21 07:00:23 --> Invalid file: login.php
+#0 C:\xampp\htdocs\admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(13): view('login')
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-21 07:02:19 --> No database selected
+CRITICAL - 2022-03-21 07:02:19 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:03:00 --> No database selected
+CRITICAL - 2022-03-21 07:03:00 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:05:08 --> No database selected
+CRITICAL - 2022-03-21 07:05:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:07:31 --> No database selected
+CRITICAL - 2022-03-21 07:07:31 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:08:04 --> No database selected
+CRITICAL - 2022-03-21 07:08:04 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:10:07 --> No database selected
+CRITICAL - 2022-03-21 07:10:07 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:10:12 --> No database selected
+CRITICAL - 2022-03-21 07:10:12 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:10:17 --> No database selected
+CRITICAL - 2022-03-21 07:10:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:11:31 --> No database selected
+CRITICAL - 2022-03-21 07:11:31 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:11:33 --> No database selected
+CRITICAL - 2022-03-21 07:11:33 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:11:41 --> No database selected
+CRITICAL - 2022-03-21 07:11:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:11:43 --> No database selected
+CRITICAL - 2022-03-21 07:11:43 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(24): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:22:25 --> No database selected
+CRITICAL - 2022-03-21 07:22:25 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:24:17 --> No database selected
+CRITICAL - 2022-03-21 07:24:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:24:19 --> No database selected
+CRITICAL - 2022-03-21 07:24:19 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:24:53 --> No database selected
+CRITICAL - 2022-03-21 07:24:53 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(40): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:24:54 --> No database selected
+CRITICAL - 2022-03-21 07:24:54 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(40): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:25:16 --> No database selected
+CRITICAL - 2022-03-21 07:25:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:25:18 --> No database selected
+CRITICAL - 2022-03-21 07:25:18 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:26:48 --> No database selected
+CRITICAL - 2022-03-21 07:26:48 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(39): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:29:38 --> No database selected
+CRITICAL - 2022-03-21 07:29:38 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(30): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:29:41 --> No database selected
+CRITICAL - 2022-03-21 07:29:41 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(30): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 07:30:29 --> No database selected
+CRITICAL - 2022-03-21 07:30:29 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->signin()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 07:50:29 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:50:56 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:51:04 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:51:47 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:53:03 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:53:10 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:53:31 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 08:02:46 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-21 08:18:31 --> No database selected
+CRITICAL - 2022-03-21 08:18:31 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:19:17 --> No database selected
+CRITICAL - 2022-03-21 08:19:17 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:19:29 --> No database selected
+CRITICAL - 2022-03-21 08:19:29 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:19:44 --> No database selected
+CRITICAL - 2022-03-21 08:19:44 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:20:22 --> No database selected
+CRITICAL - 2022-03-21 08:20:22 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:20:50 --> No database selected
+CRITICAL - 2022-03-21 08:20:50 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:21:08 --> No database selected
+CRITICAL - 2022-03-21 08:21:08 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:21:26 --> No database selected
+CRITICAL - 2022-03-21 08:21:26 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:23:59 --> No database selected
+CRITICAL - 2022-03-21 08:23:59 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:25:32 --> No database selected
+CRITICAL - 2022-03-21 08:25:32 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:25:43 --> No database selected
+CRITICAL - 2022-03-21 08:25:43 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 08:26:39 --> No database selected
+CRITICAL - 2022-03-21 08:26:39 --> No database selected
+#0 C:\xampp\htdocs\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#8 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-03-21 08:30:26 --> No database selected
+CRITICAL - 2022-03-21 08:30:26 --> No database selected
+#0 C:\xampp\htdocs\admin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\admin\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\admin\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\admin\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\admin\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\admin\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(25): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#8 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#9 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-21 11:12:54 --> Class "App\Filters\RouteFilter" not found
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-21 12:10:25 --> Invalid file: user_register.php
+#0 C:\xampp\htdocs\admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user_register.p...')
+#1 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('user_register', Array, true)
+#2 C:\xampp\htdocs\admin\app\Controllers\RegisterController.php(15): view('user_register', Array)
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-21 13:39:28 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 13:45:55 --> Call to undefined function set_value()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\Login.php(9): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
