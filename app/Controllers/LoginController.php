@@ -10,6 +10,7 @@ class LoginController extends Controller
     public function index()
     {
         helper(['form']);
+        helper('cookie');
         echo view('pages/login');
     } 
     
@@ -18,6 +19,7 @@ class LoginController extends Controller
 
         $session = session();
         $model = new UserModel();
+        helper('cookie');
 
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
@@ -42,6 +44,17 @@ class LoginController extends Controller
                 $results["status"] = 1;
                 $results["msg"] = "Register successfully !!!";
                // return redirect()->to('/dashboard');
+                
+                // remember me
+                    if($this->request->getVar('remember')) {
+                      
+                      set_cookie ("loginId", $email, time()+ (10 * 365 * 24 * 60 * 60));  
+                      set_cookie ("loginPass", $password,  time()+ (10 * 365 * 24 * 60 * 60));
+                    } else {
+                      set_cookie ("loginId",""); 
+                      set_cookie ("loginPass","");
+                    }  
+                
             }else{
                 $session->setFlashdata('msg', 'wrong password.');
               //  return redirect()->to('/login');
@@ -59,5 +72,12 @@ class LoginController extends Controller
         echo json_encode($results);
         
        
+    }
+    //Lougout
+    public function logout()
+    {
+        session_start();
+        session_destroy();
+        return redirect()->to('/login');
     }
 }

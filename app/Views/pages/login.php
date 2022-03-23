@@ -32,23 +32,23 @@
     <div class="card-body">
       <p class="login-box-msg">Sign in to start your session</p>
       
-      <?php if(session()->getFlashdata('msg')):?>
+      <?php  if(session()->getFlashdata('msg')):?>
                 <div class="alert alert-info">
-                   <?= session()->getFlashdata('msg') ?>
-                </div>
+                   <?= session()->getFlashdata('msg') ?> <?php if(get_cookie("loginId")) { echo get_cookie("loginId"); } ?>
+                </div> 
             <?php endif;?>
 
       <form action="#" method="post" id="login_form">
         <div class="input-group mb-3">
-            <input type="email" name="email" id="email" class="form-control" placeholder="Email" value="<?= set_value('email') ?>" required>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Email" value="" required>
           <div class="input-group-append">
             <div class="input-group-text">
-              <span class="fas fa-envelope"></span>
+              <span class="fas fa-envelope"></span> 
             </div>
           </div>
         </div>
         <div class="input-group mb-3">
-            <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
+            <input type="password" name="password" id="password" class="form-control" placeholder="Password" value="<?php if(get_cookie("loginPass")) { echo get_cookie("loginPass"); } ?>" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -58,7 +58,7 @@
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">
-                <input type="checkbox" name="remember" id="remember">
+                <input type="checkbox" name="remember" id="remember" value="1" <?php if(get_cookie("loginId")) { ?> checked="checked" <?php } ?>>
               <label for="remember">
                 Remember Me
               </label>

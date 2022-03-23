@@ -1,0 +1,252 @@
+CRITICAL - 2022-03-23 01:54:12 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(66): session_destroy()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->logout()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-23 01:55:56 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 67)
+#1 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(67): session_destroy()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->logout()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-23 02:22:41 --> Undefined constant "get_cookie"
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(13): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:23:25 --> Undefined constant "get_cookie"
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(14): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:25:48 --> Undefined constant "get_cookie"
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(14): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:26:48 --> Undefined constant "get_cookie"
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(14): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:26:50 --> Undefined constant "get_cookie"
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(14): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 02:55:47 --> Undefined constant "get_cookie"
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(14): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 03:13:32 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-23 03:14:21 --> Call to undefined function get_cookie()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(14): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 03:14:27 --> Call to undefined function get_cookie()
+#0 C:\xampp\htdocs\admin\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('pages/login', Array, true)
+#3 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(14): view('pages/login')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->index()
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 03:16:34 --> Undefined variable $username
+#0 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 03:17:03 --> Undefined variable $username
+#0 C:\xampp\htdocs\admin\app\Controllers\LoginController.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51)
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\LoginController->process_login()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 04:03:36 --> Class "App\Controllers\ProductModel" not found
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 04:03:37 --> Class "App\Controllers\ProductModel" not found
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 04:04:33 --> Class "App\Controllers\UserModel" not found
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 05:38:52 --> Call to undefined function App\Controllers\findAll()
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 05:42:22 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\admin\app\Controllers\DashboardController.php(17): session_start()
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#3 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-23 05:42:57 --> Call to undefined function App\Controllers\findAll()
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 05:43:26 --> Call to undefined function App\Controllers\findAll()
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 05:43:49 --> Call to undefined function App\Controllers\findAll()
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 05:43:49 --> Call to undefined function App\Controllers\findAll()
+#0 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\DashboardController->index()
+#1 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+#2 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 06:18:46 --> Class "App\Controllers\Model" not found
+#0 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 06:20:06 --> Class "App\Controllers\Model" not found
+#0 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 06:20:08 --> Class "App\Controllers\Model" not found
+#0 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 06:20:22 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 06:20:26 --> Class "App\Controllers\Controllers" not found
+#0 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\admin\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 06:27:24 --> Undefined variable $users
+#0 C:\xampp\htdocs\admin\app\Views\templates\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('templates/sideb...', Array, true)
+#4 C:\xampp\htdocs\admin\app\Controllers\RegisterController.php(16): view('templates/sideb...')
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 06:27:34 --> Undefined variable $users
+#0 C:\xampp\htdocs\admin\app\Views\templates\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('templates/sideb...', Array, true)
+#4 C:\xampp\htdocs\admin\app\Controllers\RegisterController.php(16): view('templates/sideb...')
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 06:29:30 --> Undefined variable $users
+#0 C:\xampp\htdocs\admin\app\Views\templates\sidebar.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\admin\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\admin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\admin\system\Common.php(1089): CodeIgniter\View\View->render('templates/sideb...', Array, true)
+#4 C:\xampp\htdocs\admin\app\Controllers\RegisterController.php(16): view('templates/sideb...')
+#5 C:\xampp\htdocs\admin\system\CodeIgniter.php(832): App\Controllers\RegisterController->index()
+#6 C:\xampp\htdocs\admin\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RegisterController))
+#7 C:\xampp\htdocs\admin\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\admin\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 {main}

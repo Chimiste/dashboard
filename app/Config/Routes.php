@@ -38,6 +38,10 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/login', 'LoginController::index');
 $routes->add('/process-login', 'LoginController::process_login');
+$routes->add('/logout', 'LoginController::logout');
+$routes->add('/mailbox', 'MailboxController::mail_box');
+$routes->add('/read-mail', 'MailboxController::read_mail');
+$routes->add('/compose', 'MailboxController::compose');
 $routes->add('/register', 'RegisterController::index');
 $routes->add('/process-signup', 'RegisterController::store');
 $routes->add('/dashboard', 'DashboardController::index',['filter' => 'routeFilter']);//,['filter' => 'routeFilter']

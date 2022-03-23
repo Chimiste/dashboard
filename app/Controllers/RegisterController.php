@@ -12,10 +12,12 @@ class RegisterController extends Controller
     {
         helper(['form']);
         $data = [];
-        echo view('templates/header');
-        echo view('templates/sidebar');
+        $UserModel = new UserModel();
+        $data['users'] = $UserModel->where("id",session("id"))->findAll();
+        echo view('templates/header',$data);
+        echo view('templates/sidebar',$data);
         echo view('pages/user_register', $data);
-        echo view('templates/footer');
+        echo view('templates/footer',$data);
         
     }
   
